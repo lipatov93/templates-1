@@ -1,8 +1,13 @@
-body {
-   width: 100px;
-   height: 100px;
-   background-color: aquamarine;
-   h1 {
-      color: wheat;
-   }
+.wrapper {
+   min-width: 100%;
+   overflow: hidden;
+   background: rgb(87, 18, 127);
+   // background: linear-gradient(170deg, rgba(87, 18, 127, 1) 0%, rgba(213, 10, 132, 1) 100%);
+}
+
+._container {
+   max-width: 1350px;
+   margin: 0px auto;
+   box-sizing: content-box;
+   padding: 0 15px;;
 }
